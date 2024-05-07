@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="App\main.cpp" />
+    <ClCompile Include="App\SimpleSprite.cpp" />
+    <ClCompile Include="GameTest.cpp" />
+    <ClCompile Include="stb_image\stb_image.cpp" />
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="App\SimpleController.cpp">
+      <Filter>Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="App\SimpleSound.cpp">
+      <Filter>Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="App\app.cpp">
+      <Filter>App</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Ships</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysicsManager.cpp">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>Ships</Filter>
+    </ClCompile>
+    <ClCompile Include="NavigationGrid.cpp">
+      <Filter>Navigation</Filter>
+    </ClCompile>
+    <ClCompile Include="Pathfinding.cpp">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Wall.cpp">
+      <Filter>Navigation</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="App\main.h" />
+    <ClInclude Include="App\SimpleSprite.h" />
+    <ClInclude Include="stb_image\stb_image.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="TestObject.h" />
+    <ClInclude Include="AABBVolume.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionVolume.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="SphereVolume.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="App\SimpleController.h">
+      <Filter>Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="App\SimpleSound.h">
+      <Filter>Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="App\app.h">
+      <Filter>App</Filter>
+    </ClInclude>
+    <ClInclude Include="App\AppSettings.h">
+      <Filter>App</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Ships</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicsManager.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>Ships</Filter>
+    </ClInclude>
+    <ClInclude Include="NavigationGrid.h">
+      <Filter>Navigation</Filter>
+    </ClInclude>
+    <ClInclude Include="NavigationMap.h">
+      <Filter>Navigation</Filter>
+    </ClInclude>
+    <ClInclude Include="NavigationPath.h">
+      <Filter>Navigation</Filter>
+    </ClInclude>
+    <ClInclude Include="Pathfinding.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Wall.h">
+      <Filter>Navigation</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Physics">
+      <UniqueIdentifier>{e308b2e1-d00c-4403-b3a6-8e8d2d0584cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controller">
+      <UniqueIdentifier>{58062dff-40e2-4f9c-a369-885992413fa0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Audio">
+      <UniqueIdentifier>{26db1daa-33cc-45ab-bbcb-e8b4bfc62d3a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="App">
+      <UniqueIdentifier>{f40572cd-85c8-4b6e-9c22-6d248b399bbe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ships">
+      <UniqueIdentifier>{01bcb78c-af3e-4643-9b3e-2fb90674d094}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Navigation">
+      <UniqueIdentifier>{edcd2574-d975-460a-bb50-e1ded1fb33fa}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
